@@ -1,0 +1,133 @@
+@import url(./reset.css);
+
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 공통 바디 스타일 */
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 90px;
+  padding: 0px 38px;
+}
+
+main {
+  background-color: #f2f2f2;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 59px;
+  color: #ebebeb;
+  font-weight: 600;
+}
+
+.hambergerMenu {
+  position: absolute;
+  right: 38px;
+}
+
+.financeCenter {
+  width: 1012px;
+  height: 581px;
+  background-color: aliceblue;
+  grid-area: financeCenter;
+}
+
+.tag {
+  width: 107px;
+  height: 40px;
+  color: white;
+  background-color: #ff565c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuredStories {
+  width: 317px;
+  height: 580px;
+  background-color: #fff;
+  grid-area: featuredStories;
+}
+
+.enterainment {
+  width: 663px;
+  height: 274px;
+  background-color: AntiqueWhite;
+  grid-area: enterainment;
+}
+
+.financeSmall {
+  width: 316px;
+  height: 274px;
+  background-color: Aquamarine;
+  grid-area: financeSmall;
+}
+
+.financelow {
+  width: 316px;
+  height: 274px;
+  background-color: Aquamarine;
+  grid-area: financelow;
+}
+.gaming {
+  width: 316px;
+  height: 274px;
+  background-color: LightCoral;
+  grid-area: gaming;
+}
+
+.readmore {
+  width: 316px;
+  height: 581px;
+  background-color: LightCyan;
+  grid-area: readmore;
+}
+
+.technology {
+  width: 316px;
+  height: 274px;
+  background-color: PeachPuff;
+  grid-area: technology;
+}
+
+.container {
+  padding: 8px 45px 120px 40px;
+  display: grid;
+  grid-template-areas:
+    "financeCenter financeCenter financeCenter financeSmall"
+    "financeCenter financeCenter financeCenter readmore"
+    "featuredStories enterainment enterainment readmore"
+    "featuredStories financelow gaming technology";
+}
+
+section {
+  margin-top: 32px;
+}
