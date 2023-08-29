@@ -58,6 +58,56 @@ header ul > li {
   height: 581px;
   background-color: aliceblue;
   grid-area: financeCenter;
+  position: relative;
+}
+
+.title {
+  /* color: #f2f2f2; */
+  font-size: 32px;
+  font-weight: 600;
+  width: 593px;
+  height: 98px;
+  text-align: center;
+  position: absolute;
+  top: 207px;
+  left: 209px;
+}
+.explain {
+  width: 483px;
+  height: 78px;
+  /* color: #f2f2f2; */
+  text-align: center;
+  position: absolute;
+  top: 310px;
+  left: 264px;
+}
+
+.finance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 137px;
+  left: 452px;
+}
+
+.financecontentfooter {
+  /* color: #f2f2f2; */
+  display: flex;
+  justify-content: space-around;
+  width: 185px;
+  position: absolute;
+  bottom: 30px;
+  left: 414px;
+}
+
+.contentfooter {
+  display: flex;
+  justify-content: space-around;
+  width: 185px;
+  position: absolute;
+  left: 28px;
+  bottom: 21px;
 }
 
 .tag {
@@ -68,6 +118,8 @@ header ul > li {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 30px;
 }
 
 .featuredStories {
@@ -82,6 +134,18 @@ header ul > li {
   height: 274px;
   background-color: AntiqueWhite;
   grid-area: enterainment;
+  position: relative;
+}
+
+.enterainmenttitle,
+.financeSmalltitle,
+.financelowtitle,
+.gamingtitle,
+.technologytitle {
+  font-size: 24px;
+  position: absolute;
+  top: 89px;
+  left: 25px;
 }
 
 .financeSmall {
@@ -89,6 +153,7 @@ header ul > li {
   height: 274px;
   background-color: Aquamarine;
   grid-area: financeSmall;
+  position: relative;
 }
 
 .financelow {
@@ -96,12 +161,14 @@ header ul > li {
   height: 274px;
   background-color: Aquamarine;
   grid-area: financelow;
+  position: relative;
 }
 .gaming {
   width: 316px;
   height: 274px;
   background-color: LightCoral;
   grid-area: gaming;
+  position: relative;
 }
 
 .readmore {
@@ -109,6 +176,7 @@ header ul > li {
   height: 581px;
   background-color: LightCyan;
   grid-area: readmore;
+  position: relative;
 }
 
 .technology {
@@ -116,6 +184,7 @@ header ul > li {
   height: 274px;
   background-color: PeachPuff;
   grid-area: technology;
+  position: relative;
 }
 
 .container {
